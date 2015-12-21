@@ -60,13 +60,13 @@ padding: 24px;
 text-transform: uppercase;
 }
 
-.nav a {
+.nav__link {
 text-decoration: none;
 color: #616161;
 padding: 1.5em;
 }
 
-.nav a:hover {
+.nav__link:hover {
 text-decoration: underline;
 color: #212121;
 }
