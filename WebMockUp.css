@@ -1,372 +1,193 @@
-<<<<<<< HEAD
-body, html {
-  margin: 0;
-  padding: 0;
-  width: 100% !important;
-  height: 100% !important;
+body,
+html {
+margin: 0;
+padding: 0;
+width: 100% !important;
+height: 100% !important;
 }
 
 body {
-	font-family: 'Lato', sans-serif !important;
+font-family: 'Lato', sans-serif !important;
 }
 
-h1, h4, h5 {
-    margin: 0 !important; 
+h1,
+h4,
+h5 {
+margin: 0 !important;
 }
 
-header, nav, footer, section, article, div {
-  box-sizing: border-box;
+header,
+nav,
+footer,
+section,
+article,
+div {
+box-sizing: border-box;
 }
 
 ul {
-    list-style: none !important; 
-    padding: 0 !important; 
-    margin: 0 !important;
-} 
+list-style: none !important;
+padding: 0 !important;
+margin: 0 !important;
+}
 
 .header__logo {
-    margin-top: 1em !important;
-    width: 100px !important;
-    height: 100px !important;
+margin-top: 1em !important;
+width: 100px !important;
+height: 100px !important;
 
 }
 
 .nav {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
 }
 
 .nav__list {
-  width: 100%;
-  padding: 0;
-  margin: 0;
+width: 100%;
+padding: 0;
+margin: 0;
 }
 
 .nav__item {
-  box-sizing: border-box;
-  display: inline-block;
-  width: 22%;
-  text-align: center;
-  line-height: 24px;
-  padding: 24px;
-  text-transform: uppercase;
+box-sizing: border-box;
+display: inline-block;
+width: 22%;
+text-align: center;
+line-height: 24px;
+padding: 24px;
+text-transform: uppercase;
 }
 
 .nav a {
-  text-decoration: none;
-  color: #616161;
-  padding: 1.5em;
+text-decoration: none;
+color: #616161;
+padding: 1.5em;
 }
 
 .nav a:hover {
-  text-decoration: underline;
-  color: #212121;
+text-decoration: underline;
+color: #212121;
 }
 
 .built {
-  height: 350px !important;
-  width: 1140px !important;
-  float: left !important;
-  margin-right: 1em !important;
+height: 350px !important;
+width: 1140px !important;
+float: left !important;
+margin-right: 1em !important;
 }
 
 /*.pachyderm {
-  width: 555px !important;
-  height: 300px !important;
-  float: left !important;
-  margin-right: 1em !important; 
+width: 555px !important;
+height: 300px !important;
+float: left !important;
+margin-right: 1em !important;
 
 }*/
 
 /*
 
- *
- * Main
- *
- */
+*
+* Main
+*
+*/
 
 main {
-  /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);*/
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+/*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);*/
+width: 100%;
+margin-left: auto;
+margin-right: auto;
 }
 
 .burger {
-  display: none;
+display: none;
 }
 
 
-      /* If there is enough space (> 600px), we keep the drawer open all the time. */
+/* If there is enough space (> 600px), we keep the drawer open all the time. */
 @media screen and (max-width: 549px) {
-  .burger {
-    /*margin-top: 12px !important;*/
-    height: 20px !important;
-    width: 20px !important;
-  }
-
-  h1 {
-    margin-top: 17px !important;
-    font-size: 20px !important;
-    display: inline-block;
-    overflow: hidden;
-    white-space: nowrap;
-    
-  }
-
-  h4 {
-    font-size: 15px !important;
-    overflow: hidden;
-    white-space: nowrap;
-  }
-
-  .header__logo {
-    margin-top: 17px !important;
-    height: 70px !important;
-    width: 60px !important;
-  }
-
-
-  .header__logo {
-    height: 48px;
-    margin-right: 0.5em;
-  }
-  .header__title {
-    margin-left: 0;
-    font-size: 2em;
-    vertical-align: bottom; 
-  }
-  .nav {
-    z-index: 10;
-    background-color: #fff;
-    width: 300px;
-    position: absolute;
-    /* This trasform moves the drawer off canvas. */
-    -webkit-transform: translate(-300px, 0);
-    transform: translate(-300px, 0);
-    /* Optionally, we animate the drawer. */
-    transition: transform 0.3s ease;
-  }
-  .nav.open {
-    -webkit-transform: translate(0, 0);
-    transform: translate(0, 0);
-  }
-  .nav__item {
-    display: list-item;
-    border-bottom: 1px solid #E0E0E0;
-    width: 100%;
-    text-align: left;
-  }
-  .burger {
-    display: inline-block;
-    position: absolute;
-    right: 0;
-    padding: 1em;
-  }
-  .burger svg {
-    width: 32px;
-    fill: #CD0000;
-  }
+.burger {
+/*margin-top: 12px !important;*/
+height: 20px !important;
+width: 20px !important;
 }
 
-@media screen and (min-width: 700px) {
-  .header__logo {
-    width: 50%;
-  }
-}
-
-@media screen and (min-width: 850px) {
-  main, .header__inner, .nav {
-    width: 850px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+h1 {
+margin-top: 17px !important;
+font-size: 20px !important;
+display: inline-block;
+overflow: hidden;
+white-space: nowrap;
 
 }
-||||||| merged common ancestors
-=======
-body, html {
-  margin: 0;
-  padding: 0;
-  width: 100% !important;
-  height: 100% !important;
-}
 
-body {
-	font-family: 'Lato', sans-serif !important;
+h4 {
+font-size: 15px !important;
+overflow: hidden;
+white-space: nowrap;
 }
-
-h1, h4, h5 {
-    margin: 0 !important; 
-}
-
-header, nav, footer, section, article, div {
-  box-sizing: border-box;
-}
-
-ul {
-    list-style: none !important; 
-    padding: 0 !important; 
-    margin: 0 !important;
-} 
 
 .header__logo {
-    margin-top: 1em !important;
-
+margin-top: 17px !important;
+height: 70px !important;
+width: 60px !important;
 }
 
+
+.header__logo {
+height: 48px;
+margin-right: 0.5em;
+}
+.header__title {
+margin-left: 0;
+font-size: 2em;
+vertical-align: bottom;
+}
 .nav {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+z-index: 10;
+background-color: #fff;
+width: 300px;
+position: absolute;
+/* This trasform moves the drawer off canvas. */
+-webkit-transform: translate(-300px, 0);
+transform: translate(-300px, 0);
+/* Optionally, we animate the drawer. */
+transition: transform 0.3s ease;
 }
-
-.nav__list {
-  width: 100%;
-  padding: 0;
-  margin: 0;
+.nav.open {
+-webkit-transform: translate(0, 0);
+transform: translate(0, 0);
 }
-
 .nav__item {
-  box-sizing: border-box;
-  display: inline-block;
-  width: 22%;
-  text-align: center;
-  line-height: 24px;
-  padding: 24px;
-  text-transform: uppercase;
+display: list-item;
+border-bottom: 1px solid #E0E0E0;
+width: 100%;
+text-align: left;
 }
-
-.nav a {
-  text-decoration: none;
-  color: #616161;
-  padding: 1.5em;
-}
-
-.nav a:hover {
-  text-decoration: underline;
-  color: #212121;
-}
-
-.built {
-  height: 350px !important;
-  width: 1140px !important;
-  float: left !important;
-  margin-right: 1em !important;
-}
-
-/*.pachyderm {
-  width: 555px !important;
-  height: 300px !important;
-  float: left !important;
-  margin-right: 1em !important; 
-
-}*/
-
-/*
-
- *
- * Main
- *
- */
-
-main {
-  /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);*/
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .burger {
-  display: none;
+display: inline-block;
+position: absolute;
+right: 0;
+padding: 1em;
 }
-
-
-      /* If there is enough space (> 600px), we keep the drawer open all the time. */
-@media screen and (max-width: 549px) {
-  .burger {
-    /*margin-top: 12px !important;*/
-    height: 20px !important;
-    width: 20px !important;
-  }
-
-  h1 {
-    margin-top: 17px !important;
-    font-size: 20px !important;
-    display: inline-block;
-    overflow: hidden;
-    white-space: nowrap;
-    
-  }
-
-  h4 {
-    font-size: 15px !important;
-    overflow: hidden;
-    white-space: nowrap;
-  }
-
-  .header__logo {
-    margin-top: 17px !important;
-    height: 70px !important;
-    width: 60px !important;
-  }
-
-
-  .header__logo {
-    height: 48px;
-    margin-right: 0.5em;
-  }
-  .header__title {
-    margin-left: 0;
-    font-size: 2em;
-    vertical-align: bottom; 
-  }
-  .nav {
-    z-index: 10;
-    background-color: #fff;
-    width: 300px;
-    position: absolute;
-    /* This trasform moves the drawer off canvas. */
-    -webkit-transform: translate(-300px, 0);
-    transform: translate(-300px, 0);
-    /* Optionally, we animate the drawer. */
-    transition: transform 0.3s ease;
-  }
-  .nav.open {
-    -webkit-transform: translate(0, 0);
-    transform: translate(0, 0);
-  }
-  .nav__item {
-    display: list-item;
-    border-bottom: 1px solid #E0E0E0;
-    width: 100%;
-    text-align: left;
-  }
-  .burger {
-    display: inline-block;
-    position: absolute;
-    right: 0;
-    padding: 1em;
-  }
-  .burger svg {
-    width: 32px;
-    fill: #CD0000;
-  }
+.burger svg {
+width: 32px;
+fill: #CD0000;
+}
 }
 
 @media screen and (min-width: 700px) {
-  .header__logo {
-    width: 50%;
-  }
+.header__logo {
+width: 50%;
+}
 }
 
 @media screen and (min-width: 850px) {
-  main, .header__inner, .nav {
-    width: 850px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+main, .header__inner, .nav {
+width: 850px;
+margin-left: auto;
+margin-right: auto;
+}
 
 }
->>>>>>> 57210b9ac4947a9d3f8fdee682b245bfabab360b
